@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksplorasi Budaya NTT dan NTB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg, #4caf50, #81c784);
+            color: white;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .main-container h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4caf50;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.2em;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn:hover {
+            background-color: #388e3c;
+            transform: scale(1.05);
+        }
+        .decorative-line {
+            width: 200px;
+            height: 5px;
+            background: linear-gradient(90deg, #4caf50, #81c784);
+            margin: 20px auto;
+            border-radius: 2px;
+        }
+        .icon {
+            font-size: 3em;
+            color: #4caf50;
+            margin-bottom: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .content img {
+            width: 40%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .text {
+            flex: 1;
+            text-align: justify;
+        }
+        .link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .button:hover {
+            background-color: #388e3c;
+        }
+        .back-button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Halaman Utama -->
+<div class="main-container" id="main-page">
+    <div class="icon">🌏</div>
+    <h2>Selamat Datang!</h2>
+    <div class="decorative-line"></div>
+    <p>Jelajahi keindahan budaya dari Nusa Tenggara Timur dan Nusa Tenggara Barat.</p>
+    <a href="#map-page" class="btn">Klik di sini untuk mulai</a>
+</div>
+
+<!-- Halaman Peta -->
+<div class="container" id="map-page" style="display: none;">
+    <h1>Pilih Wilayah</h1>
+    <img src="peta ntt ntb.jpeg" alt="Peta NTT dan NTB" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;">
+    <div style="text-align: center;">
+        <a href="#ntt-page" class="btn">NTT</a>
+        <a href="#ntb-page" class="btn">NTB</a>
+    </div>
+</div>
+
+<!-- Halaman NTT -->
+<div class="container" id="ntt-page" style="display: none;">
+    <h1>Nusa Tenggara Timur (NTT)</h1>
+    <div class="content">
+        <img src="ntt.jpeg" alt="Baju Adat NTT">
+        <div class="text">
+            <h2>Penjelasan Gambar</h2>
+            <p>Baju Amarasi adalah baju adat NTT dari Suku Dawan yang mendiami wilayah Kabupaten Timor, Kabupaten Kupang, dan sebagian di Kabupaten Beli. Baju amarasi untuk pria berupa kain tenun yang dibentuk selimut ikat, baju budo, kalung habas berbandung gong, muti salak, gelang timot, dan hiasan ikat kepala.</p>
+            <p>Untuk wanita menggunakan sarung tenun untuk bawahan, kebaya, selendang penutup dada, muti salak, hiasan kepala tusuk konde, kalung kepala 3 sisir emas, dan gelang nalar.</p>
+            <h2>Penjelasan Tarian</h2>
+            <p>Tari Caci adalah tarian perang khas Nusa Tenggara Timur (NTT) yang berasal dari masyarakat Manggarai, Flores. Nama Tari Caci berasal dari kata "ca" yang berarti satu dan "ci" yang berarti uji. 
+            <p>Tarian ini biasanya ditampilkan pada saat syukuran musim panen, ritual tahun baru, dan upacara adat lainnya. Para penari menggunakan pakaian perang yang terdiri dari celana panjang putih, sarung songke, dan topeng atau panggal. Penari yang menyerang menggunakan cambuk yang disebut larik, sedangkan penari yang bertahan menggunakan perisai yang disebut nggiling.Tarian ini juga mengandung pesan damai, seperti saling menghormati dan tidak meninggalkan dendam.</p>
+            <a class="link" href="https://youtu.be/bhW0LgMaFKg?si=6ls17k4UA7cTOPly" target="_blank">Tekan untuk menonton Tari Caci</a>
+        </div>
+    </div>
+    <a href="#map-page" class="btn back-button">Kembali</a>
+</div>
+
+<!-- Halaman NTB -->
+<div class="container" id="ntb-page" style="display: none;">
+    <h1>Nusa Tenggara Barat (NTB)</h1>
+    <div class="content">
+        <img src="ntb.jpeg" alt="Baju Adat NTB">
+        <div class="text">
+            <h2>Penjelasan Gambar</h2>
+            <p>baju pegon, adalah baju adat tradisional suku sasak yang dikenakan oleh laki-laki. Pria: Pakaian Pegon untuk pria terdiri dari jas berwarna gelap yang dipadukan dengan kain wiron sebagai bawahan. Kain wiron adalah kain batik Jawa dengan motif tulang nangka yang dikenakan hingga mata kaki. Selain itu, pria juga mengenakan ikat kepala yang disebut capuk, serta leang atau dodot yang dihiasi motif benang emas di bagian pinggang.</p>
+            <p>Meskipun Pakaian Adat Pegon lebih dikenal sebagai busana pria, wanita suku Sasak biasanya mengenakan pakaian adat Lambung, yang terdiri dari kebaya hitam dengan kerah berbentuk V dan lengan pendek, dipadukan dengan sarung</p>
+            <h2>Penjelasan Tarian</h2>
+            <p>Tari Gendang Beleq adalah tarian yang berasal dari suku Sasak di Lombok dan ditarikan oleh sekelompok penari yang memainkan gendang berukuran besar yang disebut "beleq", Kata "beleq" dalam bahasa Sasak berarti "besar". Tari Gendang Beleq awalnya digunakan untuk menyemangati para prajurit yang akan berangkat atau kembali dari medan perang. Saat ini, tarian ini sering ditampilkan dalam berbagai acara adat dan penyambutan tamu kehormatan</p>
+            <a class="link" href="https://youtu.be/xX7s0AiTCLE?si=ULdE46_FqVSzBGt3" target="_blank">Tekan untuk menonton Tari Gendang Beleq</a>
+        </div>
+    </div>
+    <a href="#map-page" class="btn back-button">Kembali</a>
+</div>
+
+<script>
+    const mainPage = document.getElementById('main-page');
+    const mapPage = document.getElementById('map-page');
+    const nttPage = document.getElementById('ntt-page');
+    const ntbPage = document.getElementById('ntb-page');
+
+    document.querySelector('.btn[href="#map-page"]').onclick = () => {
+        mainPage.style.display = 'none';
+        mapPage.style.display = 'block';
+    };
+
+    document.querySelector('.btn[href="#ntt-page"]').onclick = () => {
+        mapPage.style.display = 'none';
+        nttPage.style.display = 'block';
+    };
+
+    document.querySelector('.btn[href="#ntb-page"]').onclick = () => {
+        mapPage.style.display = 'none';
+        ntbPage.style.display = 'block';
+    };
+
+    document.querySelectorAll('.back-button').forEach(button => {
+        button.onclick = () => {
+            nttPage.style.display = 'none';
+            ntbPage.style.display = 'none';
+            mapPage.style.display = 'block';
+        };
+    });
+</script>
+
+</body>
+</html>
